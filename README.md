@@ -2,8 +2,21 @@
 
 ![Máquina de Turing Misteriosa](assets/maquina_misteriosa.svg)
 
-## 
+## Enunciado
 
+Representar la máquina de Turing Misteriosa utilizando la librería automata para Python. Verificar que corran los tests y estén todos verdes.
+
+En el archivo maquina.py hay un ejemplo de una MT implementada.
+
+Siguiendo el diagrama de transición y completando la definición de la MT, adaptar la la_maquina_turing.
+
+Para eso debemos:
+
+- completar las transiciones como están en el gráfico
+- agregar los estados faltantes en el set states
+- adaptar los símbolos del alfabeto Sigma
+- adaptar los símbolos del alfabeto de cinta
+- corregir si fuera necesario el estado de aceptación
 
 ## Instrucciones
 
