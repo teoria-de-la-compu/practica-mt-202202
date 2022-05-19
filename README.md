@@ -26,7 +26,7 @@ Instalar:
 - pip
 - virtualenv
 
-La primera vez:
+La primera vez en windows (en linux se activa con ". venv/bin/activate" ):
 
 ```
 python -m venv venv
