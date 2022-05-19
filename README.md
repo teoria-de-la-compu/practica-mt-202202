@@ -28,7 +28,7 @@ Instalar:
 
 La primera vez:
 
-```bash
+```
 python -m venv venv
 ``` 
 
@@ -38,14 +38,14 @@ Antes de arrancar a trabajar hay que activar el entorno virtual
 
 En Windows:
 
-```bash
+```
 venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
 En Linux:
 
-```bash
+```
 . venv/bin/activate
 pip install -r requirements.txt
 ```
@@ -61,3 +61,12 @@ python -m pytest
 El trabajo está completo cuando hayamos implementado la MT misteriosa en el archivo maquina.py y todos los tests den verde.
 
 ¡Éxitos!
+
+## Licencia
+
+Esta obra fue elaborada por [Miguel Carboni](https://github.com/miguelius) y publicada bajo una [Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
