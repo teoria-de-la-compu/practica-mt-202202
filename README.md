@@ -30,6 +30,8 @@ La primera vez:
 
 ```
 python -m venv venv
+venv\Scripts\activate.bat
+pip install -r requirements.txt
 ```
 
 ## Para ejecutar
@@ -39,15 +41,13 @@ Antes de arrancar a trabajar hay que activar el entorno virtual
 En Windows:  
 
 ```
-venv\Scripts\activate
-pip install -r requirements.txt
+venv\Scripts\activate.bat
 ```
 
 En Linux:  
 
 ```
 . venv/bin/activate
-pip install -r requirements.txt
 ```
 
 Una vez activado el entorno virtual corremos los tests:  
